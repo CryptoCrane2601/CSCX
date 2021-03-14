@@ -8,6 +8,6 @@ for line in sys.stdin:
     line = line.strip()
     print(name + ' is ' + str(age) + ' years old.')
 
-#John is 23 years old.
+
     
     
