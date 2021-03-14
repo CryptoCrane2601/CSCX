@@ -1,4 +1,6 @@
 import fileinput
 
 for line in fileinput.input():
-    print(line.rstrip())
+    line = line.rstrip()
+    line = int(line)
+    print(line)
