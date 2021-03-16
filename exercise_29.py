@@ -3,6 +3,8 @@
 import sys
 
 for line in sys.stdin:
-    line = line.split()
-    print(line + ' owes ' + '$' + str(line) + ' dollars to ' + line)
+    amount,name1,name2 = line.split()
+    amount = float(amount)
+    line = line.strip()
+    print(name1 + ' owes ' + '$' + "%.2f" % amount + ' dollars to ' + name2 + '.')
 
