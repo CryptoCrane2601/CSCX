@@ -1,13 +1,14 @@
 #pi
 
 import sys
+import math
 
 def circumference(r):
-    p = float(3.141592653)
+    p = math.pi
     return float(2) * p * float(r)
     
 def area(r):
-    p = float(3.141592653) 
+    p = math.pi 
     return p * float(r) ** 2
 
 for num in sys.stdin:
